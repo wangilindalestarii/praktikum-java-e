@@ -16,5 +16,10 @@ public class MahasiswaBeraksiMethod {
 
         mhs2.tampilkanIdentitasDiri();
 
+        System.out.println("usia "+mhs2.nama+" adalah "+mhs2.hitungUsia()+" tahun");
+
+        System.out.println(mhs2.hitungKali(7, 9));
+
+        mhs2.sapaNama("Wangi");
     }
 }
