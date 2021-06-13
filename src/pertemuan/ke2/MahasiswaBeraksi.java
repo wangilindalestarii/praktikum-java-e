@@ -27,11 +27,6 @@ public class MahasiswaBeraksi {
         System.out.println("NAMA " + mhs2.nama);
         System.out.println("TANGGAL LAHIR " + formatTanggal.format(mhs2.tanggalLahir));
 
-        System.out.println("=============================================================================");
-        System.out.println("Ini Yang Menggunakan Method");
-        System.out.println("=============================================================================");
 
-        mhs.tampilkanIdentitasDiri();
-        mhs2.tampilkanIdentitasDiri();
     }
 }
